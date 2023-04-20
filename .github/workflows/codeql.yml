@@ -9,7 +9,11 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL"
+repositories:
+  - name: my-other-repository
+    url: https://github.com/vijay-art/test-rahi.git
+    language: javascript
+
 
 on:
   push:
